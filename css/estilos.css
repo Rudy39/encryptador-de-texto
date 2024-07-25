@@ -108,3 +108,48 @@ body{
 /*MEDIA QUERIES*/
 /*TABLET*/
 
+@media (max-width:999px) {
+    .container{
+        margin: 1rem auto;
+        justify-content: space-around;
+    }
+    .encabezado{
+        margin: 1rem 0 0 1rem;
+    }
+    .texto__titulo{
+        font-size: 4.5rem;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    .box{
+        font-size: 0.8rem;
+        padding: 1rem;
+        margin: 0;
+    }
+    .botones{
+        font-size: 0.8rem;
+        margin: 1rem;
+    }
+    .texto__footer{
+        font-size: 0.6rem;
+    }
+}
+
+/*celulares*/
+@media (max-width:671px) {
+    .texto__titulo{
+        font-size: 3.5rem;
+    }
+    .subtitulo{
+        font-size: 1rem;
+    }
+    .container{
+        flex-direction: column;
+        margin: 1rem auto;
+        justify-content: space-around;
+    }
+    .entrada, .salida{
+        width: 100%;
+    }
+}
